@@ -3,6 +3,7 @@
     
     margin: 0px;
     padding: 0px;
+    
    }
       
     
@@ -36,39 +37,35 @@
    
    .main_content{
      box-sizing: border-box;
-    
-    
-
-    padding:10px;
+   
     padding-right: 0px;
     background-color: red;
     display: inline-block;
-   
-
-   
-    
-    
-   
-     
+    margin-top: 10px;
+    margin-bottom: 10px;
    }
    .subcontents{
     height: 200px;
    
     background-color: yellow;
    display: inline-block;
-    margin: 10px;
-        
+   position: relative;
+   left: 4.5%;
+   
+   margin-top: 2%;
+   margin-bottom: 2%    
    }
   
    .advertisement{
     height: 120px;
-    width: 640px;
+    width: 91.5%;
     background-color: purple;
-    float: left;
+    
    
     margin-top: 20px;
-    margin-left: 20px;
-   
+    position: relative;
+    left: 4.5%;
+    margin-bottom: 2%;
   
    }
    @media only screen and (max-width: 480px){
@@ -79,7 +76,10 @@
       width: 100%;
     }
     .sm-3{
-      width: 100%;
+      width: 91%;
+    }
+    .sm-4{
+      width: 91%;
     }
   }
    @media only screen and (min-width: 481px){
@@ -90,7 +90,12 @@
       width: 100%;
     }
     .mid-3{
-      width: 45%;
+      width: 44.5%;
+      margin-right: 11px;
+
+    }
+    .mid-4{
+      width: 90.5%;
     }
   
 
@@ -98,17 +103,23 @@
   @media only screen and (min-width: 1024px){
     .lg-1{
      display: inline-block;
-     width: 18.9%;
+     width: 17.9%;
      margin-right: 7px;
  }
     .lg-2{
-     display: inline-block;
-      width: 80%;
+     
+      width: 80.9%;
+     
     }
 
-    .mid-3{
-      width: 30%;
+    .lg-3{
+      width: 29%;
+      margin-right: 11px;
+
         }
+    .lg-4{
+      width: 90.5%;
+    }
 
    
 
